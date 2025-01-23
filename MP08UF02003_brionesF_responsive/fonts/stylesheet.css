@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Maximum Voltage';
+    src: url('MaximumVoltage.eot');
+    src: url('MaximumVoltage.eot?#iefix') format('embedded-opentype'),
+        url('MaximumVoltage.woff2') format('woff2'),
+        url('MaximumVoltage.woff') format('woff'),
+        url('MaximumVoltage.ttf') format('truetype'),
+        url('MaximumVoltage.svg#MaximumVoltage') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

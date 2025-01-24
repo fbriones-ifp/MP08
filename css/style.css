@@ -269,7 +269,6 @@ article{
     margin: 38px;
     background-color: midnightblue;
     float: left;
-    left: 30px;
 
 }
 
@@ -429,7 +428,16 @@ img:hover {
 
 /* ------------ Responsive ------------------------------------------------------------- */
 
+@media screen and (max-width: 1836px) {
+    .contenidor{
+        width: 100%;
+    }
 
+    .destacats{
+        height: 100%;
+
+    }
+}
 
 @media screen and (max-width:480px) {  
     

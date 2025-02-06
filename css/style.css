@@ -71,7 +71,7 @@ h1{
 
 .pagina{
     position: relative;
-    top: 50px;
+    top: 0px;
 }
 
 /* ------------ Video ------------------------------------------- */
@@ -183,7 +183,7 @@ video {
 .p3{
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(21,71,186,1) 50%, rgba(184,33,207,1) 100%);
-    height: 6000px;
+    overflow: hidden;
 }
 
 .p4{
@@ -206,11 +206,10 @@ video {
 /* ------------ Youtube -------------------------------------------------- */
 
 .youtube{
-    position: absolute;
     right: 10px;
-    top: 5740px;
     z-index: 300;
-
+    padding: 50px;
+    text-align: right;
 }
 
 
@@ -256,7 +255,7 @@ article{
 .contenidor{
     width: 1920px;
     margin: auto;
-    overflow: none;
+    overflow: hidden;
     text-align: center;
 }
 
@@ -351,9 +350,7 @@ img:hover {
 
 .destacats{
     width: 100%;
-    height: 1800px;
     overflow: hidden;
-    top: 100px;
     background: #f3f1f5;
     text-align: center;
 }
@@ -398,12 +395,10 @@ img:hover {
 
 .parrafo{
     width: 450px;
-    height: 40px;
     line-height: 1.875rem;
     font-weight: 500;
     font-size: 0.9375rem;
     color: black;
-    top: 20px;
     left: 40%;
     text-align: justify;
 } 
@@ -429,6 +424,7 @@ img:hover {
         width: 100%;
     }
 
+    
     
 }
 
@@ -519,7 +515,6 @@ img:hover {
 
     .destacats{
         width: 100%;
-        height: 2300px;
         margin: 0;
         left: 0;
     }

@@ -206,9 +206,6 @@ video {
 /* ------------ Youtube -------------------------------------------------- */
 
 .youtube{
-    right: 10px;
-    z-index: 300;
-    padding: 50px;
     text-align: right;
 }
 
@@ -536,8 +533,7 @@ img:hover {
     }
 
     .youtube{
-        right: 1.5%;
-        top: 5670px;
+        text-align: center;
     }
 
     .tarjeta p{

@@ -156,11 +156,6 @@ img{
 
 
 
-
-
-
-
-
 .mes{
     width: 40px;
     height: 40px;
@@ -257,6 +252,7 @@ input {
     height: 40px;
     width: 40px;
     display: inline-block;
+    float: left;
   }
   
   #agradador label {
